@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "bionix": {
+      "locked": {
+        "lastModified": 1612766452,
+        "narHash": "sha256-nzEkgzJmZYR4T2nDZycRI9oUsi+S1pZ9Y22mm/pObXg=",
+        "owner": "PapenfussLab",
+        "repo": "bionix",
+        "rev": "4f7f2770baecc5f72ca9e90d7996c0a1554bda1b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "PapenfussLab",
+        "repo": "bionix",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1610051610,
+        "narHash": "sha256-U9rPz/usA1/Aohhk7Cmc2gBrEEKRzcW4nwPWMPwja4Y=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3982c9903e93927c2164caa727cd3f6a0e6d14cc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1609866355,
+        "narHash": "sha256-TMzb8nMePC4OusDde+xv8AIgbNYuFku/dlLkPO/hifM=",
+        "path": "/nix/store/9kfzklpzv0bh5v7xidriwy7pq07drza8-source",
+        "rev": "d9dba88d08a9cdf483c3d45f0d7220cf97a4ce64",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "bionix": "bionix",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
